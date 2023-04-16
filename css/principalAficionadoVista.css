@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff; /* Fondo azul */
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fcd117; /* Fondo amarillo del contenedor */
+    position: relative; /* Para posicionar la línea amarilla en el centro */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra aplicada */
+}
+
+.container::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    background-color: #fcd117; /* Línea amarilla en el centro */
+}
+
+.form-group label {
+    display: block;
+    text-align: center; /* Centrar las etiquetas */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Color azul */
+}
+
+p {
+    text-align: center;
+    color: #333; /* Color de texto normal */
+}
