@@ -1,6 +1,6 @@
 <?php
 
-require("../Controladores/controladorUsuarios.php");
+require("../AccesoDatos/UsuariosAccesoDatos.php");
 
 class UsuarioReglasNegocio
 {
