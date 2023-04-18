@@ -54,6 +54,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST")
         } 
         ?>
     </form> 
+    <button id="tema" oscuro="false" class="tema" onclick=modoOscuro()><i class="fa-solid fa-moon"></i></button>
     </div>
 </body>
 </html>
