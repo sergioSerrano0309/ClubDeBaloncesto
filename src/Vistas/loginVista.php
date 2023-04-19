@@ -61,16 +61,18 @@ if ($_SERVER["REQUEST_METHOD"]=="POST")
 
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content ">
             <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Ajustes</h1>
+            <h1 id="ajustes" class="modal-title fs-5" id="exampleModalLabel">Ajustes</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <p style="display: inline;">Tema : <button style="display: inline;" id="tema" oscuro="false" class="tema" ><i class="fa-solid fa-sun"></i></button></p> 
+            <div class="modal-body ">
+                <p id="setting1" class="setting">Tema : </p> <button style="margin-bottom: 10px;" id="tema" oscuro="false" class="tema" ><i class="fa-solid fa-sun"></i></button>
+                <p id="setting2" class="setting"><br>Lenguaje: </p> <select id="idioma" style="display: inline;"><option id="setting21" value="es">Castellano</option><option id="setting22" value="en">Inglés</option><option id="setting23" value="ca">Catalán</option></select>
+                
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button id="close" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
         </div>
         </div>
