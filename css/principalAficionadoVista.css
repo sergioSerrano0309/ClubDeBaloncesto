@@ -1,43 +1,62 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #007bff; /* Fondo azul */
+    background-color: #c4e0ff; 
     padding: 20px;
     margin: 0;
 }
 
 .container {
-    max-width: 800px;
-    padding: 20px;
+    text-align: center;
+    max-width: 100%;
     margin: 0 auto;
-    border-radius: 5px;
-    background-color: #fcd117; /* Fondo amarillo del contenedor */
-    position: relative; /* Para posicionar la línea amarilla en el centro */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra aplicada */
+    padding: 20px;
+    background-color: rgba(65, 154, 255, 0.95);
+    box-shadow: 0px 14px 18px rgba(0, 0, 0, 0.1);
+    border: 4px solid #f7ca00;
+    border-radius: 40px 40px 40px 40px;
 }
 
-.container::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    width: 1px;
-    height: 100%;
-    background-color: #fcd117; /* Línea amarilla en el centro */
-}
 
 .form-group label {
     display: block;
-    text-align: center; /* Centrar las etiquetas */
+    text-align: center; 
 }
 
 h1 {
     text-align: center;
-    color: #007bff; /* Color azul */
+    color: #007bff; 
 }
 
-p {
+h1.titulo
+{
     text-align: center;
-    color: #333; /* Color de texto normal */
+    font-weight: bolder;
+    font-size: 40px;
+    color: #f7ca00;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.tema {
+
+    background-color: #000000;
+    color: #f7ca00;
+    border-radius: 1500px;
+    font-size: 25px;
+    width: 40px;
+}
+#settings
+{
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+.setting
+{
+    display: inline; 
+}
+.carousel
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
