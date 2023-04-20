@@ -47,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST")
         <label for="Contraseña">Contraseña</label><br><br>
         <input type="password" id="contraseña" name="contraseña" value=""><br><br>
         <input class="boton" type="submit" value="Confirmar">
+        <input id="confirmar" class="botonAficionado" type="submit" value="Entrar como Aficionado">
         <?php 
         if($error == true)
         {
