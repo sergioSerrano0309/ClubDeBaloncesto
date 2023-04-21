@@ -56,6 +56,7 @@ function cambiarIdioma() {
       document.getElementById("setting21").innerHTML = "Castellano";
       document.getElementById("setting22").innerHTML = "Inglés";
       document.getElementById("setting23").innerHTML = "Catalán"; 
+      document.getElementById("confirmarAficionado").innerHTML = "Entrar como Aficionado"; 
     } else if (idiomaSeleccionado === "en") {
         document.getElementById("user").innerHTML = "Username";
         document.getElementById("password").innerHTML = "Password";
@@ -67,6 +68,7 @@ function cambiarIdioma() {
         document.getElementById("setting21").innerHTML = "Spanish";
         document.getElementById("setting22").innerHTML = "English";
         document.getElementById("setting23").innerHTML = "Catalan"; 
+        document.getElementById("confirmarAficionado").innerHTML = "Enter as fan";
     } else if (idiomaSeleccionado === "ca") {
         document.getElementById("user").innerHTML = "Nom d'usuari";
         document.getElementById("password").innerHTML = "Contrasenya";
@@ -78,5 +80,6 @@ function cambiarIdioma() {
         document.getElementById("setting21").innerHTML = "Castellà";
         document.getElementById("setting22").innerHTML = "Anglès";
         document.getElementById("setting23").innerHTML = "Català"; 
+        document.getElementById("confirmarAficionado").innerHTML = "Entrar com aficionat";
     }
   }
