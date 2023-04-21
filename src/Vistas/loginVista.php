@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST")
             } 
             ?>
         </form>
-        <a href="principalAficionadoVista.html" id="confirmarAficionado" class="botonAficionado" type="button" value="Entrar como Aficionado">Entrar como Aficionado</a>
+        <a href="principalAficionadoVista.php" id="confirmarAficionado" class="botonAficionado" type="button" value="Entrar como Aficionado">Entrar como Aficionado</a>
       </div>
        <button id="settings" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <i class="fa-solid fa-gear"></i>
