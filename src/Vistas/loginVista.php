@@ -41,20 +41,23 @@ if ($_SERVER["REQUEST_METHOD"]=="POST")
 </head>
 <body>
     <div class="cajaSesión">
-    <form method = "POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-        <label for="Usuario">Nombre de usuario</label><br><br>
-        <input type="text" id="usuario" name="usuario" value=""><br><br>
-        <label for="Contraseña">Contraseña</label><br><br>
-        <input type="password" id="contraseña" name="contraseña" value=""><br><br>
-        <input class="boton" type="submit" value="Confirmar"><br><br>
-        <input id="confirmar" class="botonAficionado" type="submit" value="Entrar como Aficionado">
-        <?php 
-        if($error == true)
-        {
-            echo "<p class='error' style='color:red'>Error al iniciar sesión</p>";
-        } 
-        ?>
-    </form> 
+       <div id='form'>
+        <form id='cajaForm' method = "POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+            <label for="Usuario">Nombre de usuario</label><br><br>
+            <input type="text" id="usuario" name="usuario" value=""><br><br>
+            <label for="Contraseña">Contraseña</label><br><br>
+            <input type="password" id="contraseña" name="contraseña" value=""><br><br>
+            <input class="boton" type="submit" value="Confirmar"><br><br>
+            <input id="confirmar" class="botonAficionado" type="submit" value="Entrar como Aficionado">
+            <?php 
+            if($error == true)
+            {
+                echo "<p class='error' style='color:red'>Error al iniciar sesión</p>";
+            } 
+            ?>
+        </form>
+        <a href="principalAficionadoVista.html" id="confirmarAficionado" class="botonAficionado" type="button" value="Entrar como Aficionado">Entrar como Aficionado</a>
+      </div>
        <button id="settings" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <i class="fa-solid fa-gear"></i>
         </button>
