@@ -57,7 +57,10 @@ input[type="submit"].boton:active {
     cursor: pointer;
     box-shadow: inset 12px 12px 12px 12px rgba(0, 0, 0, 0.1);
 }
-input[type="submit"].botonAficionado {
+
+a.botonAficionado {
+    text-decoration: none;
+    text-align: center;
     width: 100%;
     padding: 10px;
     background-color: #00ff40;
@@ -68,7 +71,7 @@ input[type="submit"].botonAficionado {
     cursor: pointer;
     
 }
-input[type="submit"].botonAficionado:active {
+a.botonAficionado:active {
     width: 100%;
     padding: 10px;
     background-color: #00e639;
@@ -80,6 +83,7 @@ input[type="submit"].botonAficionado:active {
     box-shadow: inset 12px 12px 12px 12px rgba(0, 0, 0, 0.1);
     
 }
+
 
 h1 {
     text-align: center;
