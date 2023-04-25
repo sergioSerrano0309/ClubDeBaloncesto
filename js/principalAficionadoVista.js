@@ -17,6 +17,8 @@ function modoOscuro() {
         modal.style.color="white";
         cajaTitulo.style.backgroundColor = "#03395e";
         cajaTitulo.style.color = "white";
+        componentesI.setAttribute("class", "oscuro");
+        componentesD.setAttribute("class", "oscuro");
     } else if(oscuro == "true"){
         document.cookie = "tema=claro; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
         body.style.backgroundColor = "#c4e0ff";
@@ -26,6 +28,8 @@ function modoOscuro() {
         modal.style.color="black";
         cajaTitulo.style.backgroundColor = "rgba(65, 154, 255, 0.95)";
         cajaTitulo.style.color = "black";
+        componentesI.setAttribute("class", "claro");
+        componentesD.setAttribute("class", "claro");
     }
     
 }
