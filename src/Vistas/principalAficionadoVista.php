@@ -40,7 +40,14 @@
           </div>
     </div>
     
-    
+    <div id="contenedor">
+      <div id="componentesI" class="claro">
+        
+      </div>
+      <div id="componentesD" class="claro">
+        
+      </div>
+    </div>
 
     <button id="settings" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <i class="fa-solid fa-gear"></i>
