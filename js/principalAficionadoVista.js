@@ -38,12 +38,34 @@ function cambiarIdioma() {
     var idiomaSeleccionado = document.getElementById("idioma").value;
     if (idiomaSeleccionado === "es") {
         document.getElementById("titulo").innerHTML = "Bienvenido al Club de Baloncesto";
-      
+        document.getElementById("ajustes").innerHTML = "Ajustes";
+        document.getElementById("close").innerHTML = "Cerrar"; 
+        document.getElementById("setting1").innerHTML = "Tema:";
+        document.getElementById("setting2").innerHTML = "<br>Lenguaje:";
+        document.getElementById("setting21").innerHTML = "Castellano";
+        document.getElementById("setting22").innerHTML = "Inglés";
+        document.getElementById("setting23").innerHTML = "Catalán";
+        
     } else if (idiomaSeleccionado === "en") {
         document.getElementById("titulo").innerHTML = "Welcome to the basketball club";
+        document.getElementById("ajustes").innerHTML = "Settings";
+        document.getElementById("close").innerHTML = "Close";
+        document.getElementById("setting1").innerHTML = "Theme:";
+        document.getElementById("setting2").innerHTML = "<br>Language:";
+        document.getElementById("setting21").innerHTML = "Spanish";
+        document.getElementById("setting22").innerHTML = "English";
+        document.getElementById("setting23").innerHTML = "Catalan";
         
     } else if (idiomaSeleccionado === "ca") {
         document.getElementById("titulo").innerHTML = "Benvingut al Club de Bàsquet";
+        document.getElementById("ajustes").innerHTML = "Ajustaments";
+        document.getElementById("close").innerHTML = "Tancar";
+        document.getElementById("setting1").innerHTML = "Tema:";
+        document.getElementById("setting2").innerHTML = "<br>Llenguatje:";
+        document.getElementById("setting21").innerHTML = "Castellà";
+        document.getElementById("setting22").innerHTML = "Anglès";
+        document.getElementById("setting23").innerHTML = "Català";
+
         
     }
   }
