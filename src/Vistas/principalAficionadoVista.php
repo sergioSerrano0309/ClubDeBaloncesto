@@ -42,7 +42,7 @@
     
     <div id="contenedor">
       <div id="componentesI" class="claro">
-        
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In magni cum, temporibus enim ipsum commodi natus dicta libero blanditiis earum velit reprehenderit repellat alias. Sequi sunt, recusandae vel vero dolore soluta debitis quod quas non dolorum facilis libero necessitatibus, iste, doloremque fugit illum id fugiat placeat iure quos qui. Officiis ipsa fugiat, veniam illum aliquam magni animi pariatur ratione illo possimus sit unde architecto quo fuga autem voluptate distinctio impedit a consequatur. Dolores id autem impedit numquam excepturi? Sapiente dolorem minus reprehenderit consectetur doloribus, laborum nisi mollitia optio dignissimos ipsum. Sit nobis repellendus ad vero a explicabo animi omnis asperiores?
       </div>
       <div id="componentesD" class="claro">
         
