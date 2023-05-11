@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4e0ff; /* Fondo azul */ /*mdo claro = #c4e0ff*/
+    padding: 20px;
+    margin: 0;
+}
+
+#form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(65, 154, 255, 0.95);
+    box-shadow: 0px 14px 18px rgba(0, 0, 0, 0.1);
+    border: 4px solid #f7ca00;
+    border-radius: 0px 0px 40px 40px;
+}
+
+label{
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #f7ca00;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: -20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+input[type="submit"].boton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"].boton:active {
+    width: 100%;
+    padding: 10px;
+    background-color: #0071eb;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: inset 12px 12px 12px 12px rgba(0, 0, 0, 0.1);
+}
+
+a.botonAficionado {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff40;
+    color: #fffcfc;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+a.botonAficionado:active {
+    width: 100%;
+    padding: 10px;
+    background-color: #00e639;
+    color: #fffcfc;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: inset 12px 12px 12px 12px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+.tema {
+
+    background-color: #000000;
+    color: #f7ca00;
+    border-radius: 1500px;
+    font-size: 25px;
+    width: 40px;
+}
+#settings
+{
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+.setting
+{
+    display: inline; 
+}
+
