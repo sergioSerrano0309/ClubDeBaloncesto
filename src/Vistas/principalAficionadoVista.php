@@ -63,8 +63,7 @@
             </div>
             <div class="modal-body ">
                 <p id="setting1" class="setting">Tema : </p> <button style="margin-bottom: 10px;" id="tema" oscuro="false" class="tema" ><i class="fa-solid fa-sun"></i></button>
-                <p id="setting2" class="setting"><br>Lenguaje: </p> <select id="idioma" style="display: inline;"><option id="setting21" value="es">Castellano</option><option id="setting22" value="en">Inglés</option><option id="setting23" value="ca">Catalán</option></select>
-                
+                <p id="setting2" class="setting"><br>Lenguaje: </p> <select id="idioma" style="display: inline;"><option id="setting21" value="es">Castellano</option><option id="setting22" value="en">Inglés</option><option id="setting23" value="ca">Catalán</option></select>                
             </div>
             <div class="modal-footer">
             <button id="close" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
